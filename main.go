@@ -2,11 +2,11 @@ package main
 
 import (
   "fmt"
+  "github.com/welcome112s/gogostudy/goprofile/http"
   "os"
   "os/signal"
   "sync"
   "syscall"
-  "tset/goprofile/http"
 )
 
 var mutex  sync.Mutex
